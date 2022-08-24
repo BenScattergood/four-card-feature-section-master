@@ -1,0 +1,170 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600 */
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'poppins', sans-serif;
+
+    padding: 0;
+    font-size: 15px;
+
+}
+
+main {
+    width: 350px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#subHeading,
+#heading {
+
+    font-size: 1.8em;
+}
+
+#subHeading {
+    font-weight: 200;
+}
+
+.headings {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin: 1rem 0 0 0;
+}
+
+#heading {
+
+    margin: -1.4rem 0 0 0;
+}
+
+#slogan {
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 1.1em;
+}
+
+.headingCard {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+
+.card {
+    background-color: white;
+    box-shadow: 0px 0px 20px hsl(228, 7%, 85%);
+    margin: 1.5rem 0 1rem 0;
+    padding: 0 2rem 0 2rem;
+    border-radius: 0.5rem;
+
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+#supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%)
+}
+
+#teamBuilder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+    border-top: 4px solid hsl(34, 97%, 64%)
+}
+
+#calculator {
+    border-top: 4px solid hsl(212, 86%, 64%)
+}
+
+p {
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin: 0;
+}
+
+img {
+    margin: 2rem 0 0 0;
+    align-self: flex-end;
+    width: 70px;
+}
+
+@media only screen and (min-width: 1440px) {
+    main {
+        width: 100%;
+    }
+
+    .headingCard {
+        width: 40%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        width: 330px;
+        height: 250px;
+        margin: 2rem 1rem 2rem 1rem;
+        align-self: center;
+    }
+
+    #subHeading,
+    #heading {
+        margin: 0rem;
+        font-size: 2.5em;
+    }
+
+    img {
+        margin: 4rem 0 0 0;
+    }
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

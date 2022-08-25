@@ -88,7 +88,7 @@ main {
 
 .card {
     background-color: white;
-    box-shadow: 0px 0px 20px hsl(228, 7%, 85%);
+    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 5%);
     margin: 1.5rem 0 1rem 0;
     padding: 0 2rem 0 2rem;
     border-radius: 0.5rem;

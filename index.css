@@ -36,18 +36,19 @@ The designs were created to the following widths:
 body {
     background-color: hsl(0, 0%, 98%);
     font-family: 'poppins', sans-serif;
-
+    margin: auto;
     padding: 0;
     font-size: 15px;
-
-}
-
-main {
-    width: 350px;
-    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,11 +129,11 @@ img {
 
 @media only screen and (min-width: 1440px) {
     main {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .headingCard {
-        width: 40%;
+        width: 150%;
     }
 
     .cards {
